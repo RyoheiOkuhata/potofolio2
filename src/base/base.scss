@@ -1,0 +1,39 @@
+// ==============================
+// base
+// ==============================
+html{
+  font-size: 62.5%;
+  margin: 0px;
+  padding: 0px;
+
+  /*=10px */
+ }
+ body{
+   //font-size: 1.6rem;
+    /*16px */
+   //letter-spacing: 0.5em;
+    /*50px */
+ }
+ img{
+   vertical-align: bottom;
+   width: 100%;//親に対してmax-widthつける
+ }
+ ul {
+  list-style:none;
+}
+
+ a {
+   text-decoration: none;
+   transition: .3s;
+ }
+ a:hover {
+  transition: .3s;//aタグのhoverはだいたいこれ
+  opacity: .8;
+}
+
+button :hover {
+  transition: .3s;//aタグのhoverはだいたいこれ
+  opacity: .7;
+  cursor: pointer;
+  
+}
